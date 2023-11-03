@@ -1,5 +1,5 @@
 function App() {
-  return <>DEPLOY FEITOasdasdasdasdassd</>;
+  return <div>DEPLOY FEITO</div>;
 }
 
 export default App;
