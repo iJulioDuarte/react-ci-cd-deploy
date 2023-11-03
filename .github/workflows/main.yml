@@ -17,4 +17,4 @@ jobs:
           server: react-ci-cd-deploy-b23tx9qlx-ijulioduartes-projects.vercel.app
           username: react-ci-cd-deploy-example
           password: ${{ secrets.ftp_password }}
-          server-dir: html_public/gabriel/
+          server-dir: src/
