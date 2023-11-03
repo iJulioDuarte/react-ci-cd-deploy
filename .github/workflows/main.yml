@@ -13,7 +13,8 @@ jobs:
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
+        env:
           server: ${{ secrets.ftp_host }}
           username: 192.168.5.157
           password: ${{ secrets.ftp_password }}
+          method: sftp
