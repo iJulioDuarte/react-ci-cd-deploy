@@ -14,7 +14,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: https://react-ci-cd-deploy.vercel.app/
+          server: react-ci-cd-deploy-b23tx9qlx-ijulioduartes-projects.vercel.app
           username: react-ci-cd-deploy-example
           password: ${{ secrets.ftp_password }}
           server-dir: build/
