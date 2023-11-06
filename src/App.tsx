@@ -4,7 +4,7 @@ function App() {
   const [number, setNumber] = useState(0);
   return (
     <main>
-      <span>Counter {number}</span>
+      <span>Counter {number} asjdhsjakhdsjkahdjashdjk</span>
       <button onClick={() => setNumber((n) => n + 1)}>+1</button>
     </main>
   );
